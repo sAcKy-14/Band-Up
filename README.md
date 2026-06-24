@@ -101,26 +101,6 @@ Help IELTS aspirants improve their vocabulary consistently and naturally, ultima
 
 ---
 
-## 📂 Project Structure
-
-bandup/
-│
-├── frontend/
-│ ├── app/
-│ ├── components/
-│ ├── hooks/
-│ └── lib/
-│
-├── backend/
-│ ├── routes/
-│ ├── services/
-│ ├── models/
-│ └── database/
-│
-├── docs/
-│
-└── README.md
-
 ---
 
 ## 🎓 Learning Methodology
