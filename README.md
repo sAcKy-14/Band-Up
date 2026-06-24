@@ -101,8 +101,6 @@ Help IELTS aspirants improve their vocabulary consistently and naturally, ultima
 
 ---
 
----
-
 ## 🎓 Learning Methodology
 
 BandUp uses proven learning principles:
