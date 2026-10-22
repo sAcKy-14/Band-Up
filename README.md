@@ -123,6 +123,27 @@ BandUp uses proven learning principles:
 - Weekly Revision Module
 - Progress Dashboard
 
+## 🧱 Project Structure
+
+```text
+Band-Up/
+├── backend/
+│   ├── app/
+│   │   ├── api/          # Versioned HTTP routes
+│   │   ├── core/         # Settings and shared application config
+│   │   ├── db/            # Database client lifecycle
+│   │   ├── models/        # Persistence models
+│   │   ├── repositories/  # Data access
+│   │   ├── schemas/       # API request and response schemas
+│   │   └── services/      # Feature business logic
+│   ├── prisma/            # PostgreSQL schema
+│   └── requirements.txt
+├── .gitignore
+└── README.md
+```
+
+The backend starter includes a FastAPI app, versioned health endpoint, environment-based settings, and a Prisma PostgreSQL datasource. See [`backend/README.md`](backend/README.md) for local setup.
+
 ---
 
 ## 🛣️ Future Roadmap
