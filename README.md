@@ -127,6 +127,8 @@ BandUp uses proven learning principles:
 
 ```text
 Band-Up/
+├── frontend/             # Next.js product showcase
+│   └── app/              # Dashboard page and visual system
 ├── backend/
 │   ├── app/
 │   │   ├── api/          # Versioned HTTP routes
@@ -142,7 +144,7 @@ Band-Up/
 └── README.md
 ```
 
-The backend starter includes a FastAPI app, versioned health endpoint, environment-based settings, and a Prisma PostgreSQL datasource. See [`backend/README.md`](backend/README.md) for local setup.
+The frontend is a responsive, interactive dashboard prototype that shows the vocabulary learning loop and MVP feature ideas. See [`frontend/README.md`](frontend/README.md) to run it. The backend starter includes a FastAPI app, versioned health and vocabulary endpoints, environment-based settings, and a Prisma PostgreSQL datasource; see [`backend/README.md`](backend/README.md) for local setup.
 
 ---
 
