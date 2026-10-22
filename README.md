@@ -71,15 +71,15 @@ Help IELTS aspirants improve their vocabulary consistently and naturally, ultima
 ### Frontend
 
 - Next.js
-- React
+- React 19
 - TypeScript
-- Tailwind CSS
-- shadcn/ui
+- Hand-written responsive CSS
+- lucide-react icons
 
 ### Backend
 
-- FastAPI
-- Python
+- FastAPI and Python 3.11+
+- SQLAlchemy async ORM and Alembic migrations
 
 ### Database
 
@@ -87,11 +87,7 @@ Help IELTS aspirants improve their vocabulary consistently and naturally, ultima
 
 ### Authentication
 
-- Clerk
-
-### ORM
-
-- Prisma
+- Clerk; Next.js sign-in is planned, and backend session-token verification is wired
 
 ### Deployment
 
@@ -138,13 +134,16 @@ Band-Up/
 │   │   ├── repositories/  # Data access
 │   │   ├── schemas/       # API request and response schemas
 │   │   └── services/      # Feature business logic
-│   ├── prisma/            # PostgreSQL schema
+│   ├── migrations/        # Alembic schema history
 │   └── requirements.txt
+├── docs/
+│   ├── features.md        # Product scope and acceptance criteria
+│   └── tech-stack.md      # Full stack and technology choices
 ├── .gitignore
 └── README.md
 ```
 
-The frontend is a responsive, interactive dashboard prototype that shows the vocabulary learning loop and MVP feature ideas. See [`frontend/README.md`](frontend/README.md) to run it. The backend starter includes a FastAPI app, versioned health and vocabulary endpoints, environment-based settings, and a Prisma PostgreSQL datasource; see [`backend/README.md`](backend/README.md) for local setup.
+The frontend is a responsive dashboard prototype. The backend now supports a database-backed vocabulary feed, daily learning queue, recall submissions, spaced review scheduling, and learner progress. See [`docs/features.md`](docs/features.md) for the feature plan, [`docs/tech-stack.md`](docs/tech-stack.md) for the complete stack, and the frontend/backend READMEs for setup.
 
 ---
 
