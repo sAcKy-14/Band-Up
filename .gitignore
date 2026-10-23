@@ -19,8 +19,8 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Generated Prisma client
-backend/generated/
+# Alembic bytecode/cache
+backend/migrations/__pycache__/
 
 # Frontend (when added)
 node_modules/

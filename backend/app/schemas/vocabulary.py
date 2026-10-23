@@ -18,10 +18,10 @@ class Difficulty(StrEnum):
     ADVANCED = "advanced"
 
 
-class VocabularyWord(BaseModel):
-    model_config = ConfigDict(frozen=True)
+class VocabularyWordRead(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
 
-    id: str
+    id: int
     word: str
     definition: str
     part_of_speech: str
@@ -34,5 +34,5 @@ class VocabularyWord(BaseModel):
 
 
 class VocabularyListResponse(BaseModel):
-    items: list[VocabularyWord]
+    items: list[VocabularyWordRead]
     count: int
